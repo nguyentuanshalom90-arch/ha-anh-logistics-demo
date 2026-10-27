@@ -39,6 +39,7 @@ jobs:
       - name: Build static demo
         env:
           GITHUB_PAGES: "true"
+          NEXT_PUBLIC_BASE_PATH: "/ha-anh-logistics-demo"
         run: npm run build
 
       - name: Upload Pages artifact
