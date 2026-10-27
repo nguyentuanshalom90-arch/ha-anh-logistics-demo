@@ -45,3 +45,19 @@ Dựng demo website mới cho doanh nghiệp vận tải và cảng biển Hải
 2. Xin bộ ảnh thật, logo bản vector/transparent và nội dung xác nhận.
 3. Chốt schema nội dung trước khi làm CMS/admin và nối PostgreSQL.
 4. Khi deploy: kiểm tra domain canonical, backup database/media live, giữ uploads persistent và thực hiện checklist hậu kiểm theo AGENTS.md.
+
+## Cập nhật phiên 2026-10-27
+
+- Đã khởi tạo Git repository local với branch `main`.
+- Đã tạo và push repository public: https://github.com/nguyentuanshalom90-arch/ha-anh-logistics-demo
+- Đã cấu hình GitHub Pages bằng workflow `.github/workflows/deploy-pages.yml`.
+- Đã xử lý `basePath` và asset paths để logo, background, ảnh đối tác hoạt động đúng dưới subpath GitHub Pages.
+- Đã xác minh workflow GitHub Actions thành công ở commit `c0124cf`.
+- Link demo public đã xác minh:
+  - https://nguyentuanshalom90-arch.github.io/ha-anh-logistics-demo/
+  - https://nguyentuanshalom90-arch.github.io/ha-anh-logistics-demo/cang/
+  - https://nguyentuanshalom90-arch.github.io/ha-anh-logistics-demo/van-tai/
+- Đã kiểm tra screenshot live cho trang gateway, Cảng Hoàng Anh và Vận tải Hà Anh.
+- Git working tree sạch, local `main` đồng bộ với `origin/main`.
+- Đây là demo tĩnh trên GitHub Pages; API form và PostgreSQL chưa chạy trên hosting tĩnh.
+- Chưa deploy production chính thức cho domain khách hàng.
